@@ -1,0 +1,20 @@
+{% extends 'blogapp/base.html'%}
+{% block title %}
+Все Посты
+{% endblock %}
+{% block content %}
+      <h1 id="posts">Все посты</h1>
+      <h3 id="about_posts">В этом разделе будут отображаться все посты по дате публикации!!!</h3>
+    {% csrf_token %}
+    {% for datas in data %}
+    <div class="container" id="show_container">
+        <div class="jumbotron">
+
+           <h3>{{datas}}<br></h3> 
+            {{datas.text}}<br>
+            <b>{{datas.name}} {{datas.surname}}<br></b> 
+            
+        </div>
+    </div>
+    {% endfor %}
+{% endblock %}

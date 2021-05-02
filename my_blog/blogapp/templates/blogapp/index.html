@@ -1,0 +1,17 @@
+{% extends 'blogapp/base.html'%}
+{% block title %}
+Добавить Пост
+{% endblock %}
+{% block content %}
+<h1>Блог для всех</h1>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Введите ваши мысли:</h2>
+      <form method="post">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <input type="submit" value="Submit">
+      </form>
+      </div>
+    </div>
+{% endblock %}        

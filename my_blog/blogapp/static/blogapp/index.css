@@ -1,0 +1,81 @@
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+.jumbotron{
+    width: 1100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button{
+    margin-left: 550px;
+}
+
+#one{
+    margin-top: 200px;
+}
+
+#signin {
+    margin-left: 20px;
+}
+
+#knopka{
+    margin-left: 490px;
+    margin-top: 150px;
+}
+
+#signin_email {
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+#signin_pass {
+    width: 300px;
+    margin-left: 500px;
+}
+
+.thank {
+    text-align: center;
+    margin-top: 75px;
+}
+
+#problem {
+    text-align: center;
+    margin-top: 75px;
+}
+
+#posts {
+    text-align: center;
+}
+
+#about_posts {
+    text-align: center;
+    color: black;
+}
+
+#show_container{
+    text-align: center;
+}
+
+#registration {
+    margin-left: 650px;
+}
+
+#check {
+    margin-left: 500px;
+}
+
+#press {
+    margin-left: 600px;
+}
+
+.h3 {
+    margin-top: 100px;
+}
+
+#register {
+     margin-left: 100px;
+}
